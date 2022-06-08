@@ -1,5 +1,4 @@
-FROM ubuntu:17.10
-LABEL maintainer="Stewart Martin-Haugh <smh@cern.ch>"
+FROM ubuntu:bionic
 
 USER root
 
@@ -18,4 +17,4 @@ RUN apt install -y google-perftools
 RUN apt install -y x11-apps
 RUN apt install -y git
 RUN apt install -y libjemalloc1 libjemalloc-dev massif-visualizer
-RUN git clone https://github.com/StewMH/OptimisationWorkshop.git
+RUN git clone https://github.com/snafus/OptimisationWorkshop.git
