@@ -15,6 +15,7 @@
 // Time and profile your output
 // time ./Exercise_2
 // valgrind --tool=callgrind ./Exercise_2
+// use callgrind_annotate --auto=yes --show-percs=yes callgrind.out.pid to view
 
 
 //Linear congruential random number generator

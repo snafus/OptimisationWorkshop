@@ -12,6 +12,8 @@
 // Time and profile your output
 // time ./Exercise_1
 // valgrind --tool=callgrind ./Exercise_1
+// use callgrind_annotate --auto=yes --show-percs=yes callgrind.out.pid to view 
+// (change pid to actuall pid number used)
 
 bool isPrime(unsigned int n) {
   for (unsigned int i = 2; i < n; i++) {

@@ -8,8 +8,9 @@
 // clang++ Exercise_3.cpp -OX -g -o Exercise_3
 // where X goes from 0 to 3
 // Time and profile your output
-// time ./Exercise_1
+// time ./Exercise_3
 // valgrind --tool=callgrind ./Exercise_3
+// use callgrind_annotate --auto=yes --show-percs=yes callgrind.out.pid to view
 
 //A simple data object containing three ints
 
