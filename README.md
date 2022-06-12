@@ -5,7 +5,7 @@ Material for workshop on optimisation and profiling for data-intensive science.
 ## Python optimisation
 A jupyter notebook is available to perform simple profiling and optimisation analysis in python:
 This can be run locally, or via mybinder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/snafus/OptimisationWorkshop.git/ex22_1?labpath=Exercise_PythonNotebook%2FPrimes_Profiling_Introduction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/snafus/OptimisationWorkshop.git/master?labpath=Exercise_PythonNotebook%2FPrimes_Profiling_Introduction.ipynb)
 
 ## C++ optimisation
 
